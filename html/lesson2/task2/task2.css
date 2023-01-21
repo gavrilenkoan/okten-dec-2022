@@ -1,0 +1,24 @@
+.external-div {
+    display: flex;
+    border: solid #113fd6;
+}
+
+.internal-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid #113fd6;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.nested-button {
+    border: solid #113fd6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}

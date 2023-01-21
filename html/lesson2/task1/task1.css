@@ -1,0 +1,29 @@
+.external-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.internal-line:nth-child(2n+1) {
+    background-color: #113fd6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin: 5px;
+}
+
+.internal-line:nth-child(2n+2) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nested-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #113f;
+    color: #ffffff;
+    height: 200px;
+    width: 600px;
+    margin: 5px;
+}
