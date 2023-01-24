@@ -1,0 +1,46 @@
+.external-div {
+    display: flex;
+    margin: 30px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    border: 2px solid #113fd6;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5aa09;
+    text-align: center;
+}
+
+
+.internal-div {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid #113fd6;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.internal-div p {
+    color: dimgray;
+}
+
+.nested-button {
+    border: solid #113fd6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
