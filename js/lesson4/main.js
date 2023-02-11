@@ -79,8 +79,8 @@ function printFunc(array) {
     for (let i = 0; i < array.length; i++) {
         document.write(`<div>
                             <p>id: ${array[i].id}</p>
-                            <p>id: ${array[i].name}</p>
-                            <p>id: ${array[i].age}</p>
+                            <p>name: ${array[i].name}</p>
+                            <p>age: ${array[i].age}</p>
                         </div>`)
     }
 }
